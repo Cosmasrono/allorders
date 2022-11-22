@@ -8,7 +8,7 @@
     <div class=" mb-52  grid  grid-rows-2 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 items-center justify-center gap-4 mx-auto container">
               <div class="flex justify-center mx-auto items-center">
                   <img src="../assets/one.webp"   class=" h-80 w-80 rounded-md" alt="">
-                 <a href="/about" ><button class=" rounded-md m-5 p-5 bg-green-500 text-white">Accomodate me</button></a>
+                  <a href="/about" ><button class=" rounded-md m-5 p-5 bg-green-500 text-white">Accomodate me</button></a>
               </div>
               <div class="flex justify-center mx-auto items-center ">
                   <img src="../assets/two.jpg"   class=" h-80 w-80 rounded-md" alt="">
