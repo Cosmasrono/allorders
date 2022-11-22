@@ -1,30 +1,30 @@
 <script setup>
- 
+ import tableVue from '../components/table.vue';
 </script>
 
 <template>
   <main>
     hello this is an accomadation platform wherre you can find your desired house online without fear or favour you will have what you have asked
-    <div class=" mb-52  grid  grid-rows-2 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 items-center justify-center gap-4 mx-auto container">
+    <div class=" md:flex-col mb-52  grid  grid-rows-2 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 items-center justify-center gap-4 mx-auto container">
               <div class="flex justify-center mx-auto items-center">
                   <img src="../assets/one.webp"   class=" h-80 w-80 rounded-md" alt="">
-                  <a href="/about" ><button class=" rounded-md m-5 p-5 bg-green-500 text-white">Accomodate me</button></a>
+                  <a href="about" ><button class=" rounded-md m-5 p-5 bg-green-500 text-white">Accomodate me</button></a>
               </div>
               <div class="flex justify-center mx-auto items-center ">
                   <img src="../assets/two.jpg"   class=" h-80 w-80 rounded-md" alt="">
-                  <a href="/about" ><button class=" rounded-md m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+                  <a href="about/" ><button class=" rounded-md m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
               </div>
               <div class=" flex justify-center mx-auto items-center">
                   <img src="../assets/three.jpg"   class=" h-80 w-80 rounded-md"  >
-                  <a href="/about" > <button class=" rounded-md  m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+                  <a href="about" > <button class=" rounded-md  m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
               </div>
               <div class=" flex justify-center mx-auto items-center">
                   <img src="../assets/four.webp"  class=" h-80 w-80 rounded-md"  alt="">
-                  <a href="/about" >  <button class=" rounded-md m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+                  <a href="about" >  <button class=" rounded-md m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
               </div>
               <div class=" flex justify-center mx-auto items-center">
                   <img src="../assets/ten.jpg"  class=" h-80 w-80 rounded-md"  alt="">
-                  <a href="/about" >   <button class=" rounded-md m-5 p-5 bg-green-500  text-white">Accomodate me</button></a>
+                  <a href="about" >   <button class=" rounded-md m-5 p-5 bg-green-500  text-white">Accomodate me</button></a>
               </div>
               <div class=" flex justify-center mx-auto items-center">
                   <img src="../assets/five.webp"  class=" h-80 w-80 rounded-md"  alt="">
@@ -40,12 +40,11 @@
                  <a href="/about" >  <button class="  rounded-md m-5 p-5 bg-green-500 text-white hover:inset-1">Accomodate me</button></a>
                 </div>
                   </div>
-             <!--        <tableView />
+              
       <p class=" bg-white flex flex-row"><br>
            </p>  
-        </div>
-    </div> -->
-
+    
+   <tableVue/>
 
 
 
@@ -67,6 +66,8 @@
             <a href="#" class="hover:underline">Contact</a>
         </li>
     </ul>
+    <span class="text-sm sm:text-center text-yellow-600">©cossi wing001@2022 . All Rights Reserved.
+        </span>
 </footer>
   </main>
 </template>
