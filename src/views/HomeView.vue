@@ -4,41 +4,66 @@
 
 <template>
   <main>
-    hello this is an accomadation platform wherre you can find your desired house online without fear or favour you will have what you have asked
+    <h1 class=" flex items-center justify-center text-2xl">The Nairobi Apartments</h1>
+
     <div class=" md:flex-col mb-52  grid  grid-rows-2 md:grid-rows-2 md:grid-cols-2 lg:grid-cols-2 grid-cols-1 items-center justify-center gap-4 mx-auto container">
               <div class="flex justify-center mx-auto items-center">
+                <div class="">
+             <h1> Rongai Apartments  <span class=" text-yellow-500"> Rent:Ksh.9000</span></h1>
                   <img src="../assets/one.webp"   class=" h-80 w-80 rounded-md" alt="">
-                  <a href="about" ><button class=" rounded-md m-5 p-5 bg-green-500 text-white">Accomodate me</button></a>
+                  <a href="about" ><button class=" ml-20 rounded-md m-5 p-5 bg-green-500 text-white">Accomodate me</button></a>
               </div>
+            </div>
               <div class="flex justify-center mx-auto items-center ">
+                <div class="">
+             <h1> Ngara Road Apartments  <span class=" text-yellow-500"> Rent:Ksh.6000</span></h1>
                   <img src="../assets/two.jpg"   class=" h-80 w-80 rounded-md" alt="">
-                  <a href="about/" ><button class=" rounded-md m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+                  <a href="about/" ><button class=" ml-20 rounded-md m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+              </div>
               </div>
               <div class=" flex justify-center mx-auto items-center">
+                <div class="">
+             <h1> Eastleigh Apartments  <span class=" text-yellow-500"> Rent:Ksh.7000</span></h1>
                   <img src="../assets/three.jpg"   class=" h-80 w-80 rounded-md"  >
-                  <a href="about" > <button class=" rounded-md  m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+                  <a href="about" > <button class="ml-20 rounded-md  m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+              </div>
               </div>
               <div class=" flex justify-center mx-auto items-center">
+                <div class="">
+             <h1> Ngong Hills Apartments  <span class=" text-yellow-500"> Rent:Ksh.5000</span></h1>
                   <img src="../assets/four.webp"  class=" h-80 w-80 rounded-md"  alt="">
-                  <a href="about" >  <button class=" rounded-md m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+                  <a href="about" >  <button class=" ml-20 rounded-md m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+              </div>
               </div>
               <div class=" flex justify-center mx-auto items-center">
+                <div class="">
+             <h1> Kamukunji Apartments  <span class=" text-yellow-500"> Rent:Ksh.10000</span></h1>
                   <img src="../assets/ten.jpg"  class=" h-80 w-80 rounded-md"  alt="">
-                  <a href="about" >   <button class=" rounded-md m-5 p-5 bg-green-500  text-white">Accomodate me</button></a>
+                  <a href="about" >   <button class=" ml-20 rounded-md m-5 p-5 bg-green-500  text-white">Accomodate me</button></a>
+              </div>
               </div>
               <div class=" flex justify-center mx-auto items-center">
+                <div class="">
+             <h1> Langat Apartments  <span class=" text-yellow-500"> Rent:Ksh.13000</span></h1>
                   <img src="../assets/five.webp"  class=" h-80 w-80 rounded-md"  alt="">
-                  <a href="/about" > <button class=" rounded-md m-5 p-5 bg-green-500 text-white">Accomodate me</button></a>
+                  <a href="/about" > <button class=" ml-20 rounded-md m-5 p-5 bg-green-500 text-white">Accomodate me</button></a>
+              </div>
               </div>
               <div class="flex justify-center mx-auto items-center ">
+                <div class="">
+             <h1> kwa ken Apartments  <span class=" text-yellow-500"> Rent:Ksh.4000</span></h1>
                   <img src="../assets/six.jpg"   class=" h-80 w-80 rounded-md" alt="">
-                  <a href="/about" >  <button class="rounded-md  m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+                  <a href="/about" >  <button class=" ml-20 rounded-md  m-5 p-5 bg-green-500 text-white ">Accomodate me</button></a>
+              </div>
               </div>
     
             <div class=" flex justify-center mx-auto items-center "> 
+                <div class="">
+             <h1> kwa ken Apartments  <span class=" text-yellow-500"> Rent:Ksh.4000</span></h1>
                  <img src="../assets/lepen.jpg" alt="" class=" h-80 w-80 rounded-md">  
-                 <a href="/about" >  <button class="  rounded-md m-5 p-5 bg-green-500 text-white hover:inset-1">Accomodate me</button></a>
+                 <a href="/about" ><button class=" ml-20 rounded-md m-5 p-5 bg-green-500 text-white hover:inset-1">Accomodate me</button></a>
                 </div>
+                  </div>
                   </div>
               
       <p class=" bg-white flex flex-row"><br>

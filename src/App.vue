@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'  */
 </script>
 
 <template>
-  <main class=" text-green-500">
+  <main class=" text-black">
 
       <nav class=" flex bg-green-500 text-white justify-end">
         <RouterLink to="/">Home</RouterLink>
