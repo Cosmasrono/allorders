@@ -4,9 +4,9 @@ import HelloWorld from './components/HelloWorld.vue'  */
 </script>
 
 <template>
-  <main class=" text-black">
+  <main class="text-black">
 
-      <nav class=" flex bg-green-500 text-white justify-end">
+      <nav class="flex justify-end py-3 text-white bg-green-500">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/services">services</RouterLink>
@@ -31,12 +31,7 @@ header {
   margin: 0 auto 2rem;
 }
 
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
+ 
 
 nav a.router-link-exact-active {
   color: var(--color-text);
@@ -73,13 +68,6 @@ nav a:first-of-type {
     flex-wrap: wrap;
   }
 
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
+ 
 }
 </style>
