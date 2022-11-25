@@ -9,7 +9,7 @@ export default{
 methods: {
   addProduct(e){
     e.preventDefault() 
-    alert("thanks alot"+this.name,"tam costed"+this.price);
+    alert("thanks alot" +" " +this.name + " " +" I am costed" + this.price);
   }
 } 
 }
@@ -22,7 +22,7 @@ methods: {
 <form v-on:submit="addProduct">
   <input type="text" v-model="name" placeholder=" Name" >
   <input type="number" v-model="price" placeholder="Price">
-  <button type="submit">Add</button>
+  <button type="submit">submit</button>
 </form>
 </main>
 

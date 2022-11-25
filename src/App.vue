@@ -4,18 +4,20 @@ import HelloWorld from './components/HelloWorld.vue'  */
 </script>
 
 <template>
-  <main class="text-black">
+  <main class="text-black"> 
+    
+    
 
       <nav class="flex justify-end py-3 text-white bg-green-500">
+    
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/services">services</RouterLink>
         <RouterLink to="/contact">contact</RouterLink>
+        <img class="mr-6 w-10 h-10" src="../src/assets/logo.png" alt="">
 
       </nav> 
       
- 
-
   <RouterView />
   </main>
 </template>
