@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'  */
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/services">services</RouterLink>
         <RouterLink to="/contact">contact</RouterLink>
-        <img class="mr-4 w-10 h-10" src="../src/assets/logo.png" alt="">
+        <img class="mr-2 w-10 h-10" src="../src/assets/logo.png" alt="">
 
       </nav> 
       
