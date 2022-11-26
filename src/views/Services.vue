@@ -8,6 +8,7 @@
         <button type="submit" id="radio" class="p-3 bg-green-600">Submit</button>
         <span class="">picked:{{picked}}</span>
     </div>
+    <a href="sms:254757450716?body=Hello Amohan,,i need your services"><button class="flex justify-center items-center p-5 ml-80 bg-green-400 rounded-md hover:scale-75">Inquire</button></a>
 
 </main>
 </template>

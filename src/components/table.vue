@@ -59,7 +59,7 @@
                      <td class="px-6 py-4">
                     </td> 
                     <td class="flex items-center px-6 py-4 space-x-3">
-                      <button type="submit" @click.stop.prevent="submit()">Submit</button>
+                      <button v-on:click="submit()">submit</button>
                     </td>
                 </tr>
                  
@@ -78,21 +78,29 @@
             {bedroom:' 1 bedroom',color:"silver", price:"5000", type:"laptop",status:"yes",desc:"  water:Ksh.1000 electrcity:ksh.3000 general:Ksh.30000"},
             {bedroom:' bedsitter',color:"silver", price:"5000", type:"laptop",status:"yes",desc:"  water:Ksh.1000 electrcity:ksh.3000 general:Ksh.30000"},
             {bedroom:' singleroom',color:"silver", price:"5000", type:"laptop",status:"yes",desc:"  water:Ksh.1000 electrcity:ksh.3000 general:Ksh.30000"}
-          ]
+          ],
+          name:'cosmas'
         }
       },
       methods: {
-        submit(){
-           
-     this.$router.push('/about') 
+        submit:function(event){
+            alert(this.accomodations[0].bedroom)
+            alert(this.accomodations[0].desc)
+            window.location="/services"
+        
+            
+
         }
     },
-    methods: {
-  addProduct(e){
-    e.preventDefault() 
-    console.log(this.name, this.price);
-  }
-} 
-    }
+    /* setup(){
+        const router=useRouter()
+        const submit=()=>{
+          router.push('/about')
+        }
+
+        return{submit}
+    } */ 
+    
+}
       
     </script>

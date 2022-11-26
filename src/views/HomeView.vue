@@ -1,6 +1,4 @@
-<script setup>
- import tableVue from '../components/table.vue';
-</script>
+
 
 <template>
   <main>
@@ -20,7 +18,7 @@
                 <div class="">
              <h1> Rongai Apartments  <span class="text-yellow-500"> Rent:Ksh.9000</span></h1>
                   <img src="../assets/one.webp"   class="w-80 h-80 rounded-md" alt="">
-                   <button class="p-5 m-5 ml-20 text-white bg-green-500 rounded-md">Accomodate me</button> 
+                  <button type="submit" class="p-5 m-5 ml-20 text-white bg-green-500 rounded-md">accomodate</button>
               </div>
               
             </div>
@@ -84,10 +82,6 @@
                 </div>
                   </div>
                   </div>
-    <!--           
-      <p class="flex flex-row bg-white"><br>
-           </p>  --> 
-    
    <tableVue/>
 
 
@@ -114,3 +108,17 @@
 </footer>
   </main>
 </template>
+<script >
+ import tableVue from '../components/table.vue';
+ 
+export default{
+  data(){
+    return{
+      
+    }
+  },
+  components:{
+    tableVue
+  }
+ }
+</script>
